@@ -4,7 +4,7 @@ package models
 //product gonna represent a generic product at sale
 //obviously i wll add more aand extend it
 
-type Prodduct struct {
+type Product struct {
 	ID          uint   `json:"id"`
 	SKU         string `json:"sku" binding:"required"`
 	Name        string `json:"name" binding:"required"`
